@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pratice flexbox</title>
+  </head>
+  <style>
+    .container1 {
+      display: flex;
+	  align-items: flex-end;
+    }
+    .container1 div {
+      border: 1px solid black;
+      padding-top: 10px;
+    }
+    .box1 {
+      /* flex: 1; */
+      order: 1;
+      padding-bottom: 20px;
+    }
+    .box2 {
+      /* flex: 1; */
+      order: 3;
+    }
+    .box3 {
+      /* flex: 1; */
+      order: 2;
+    }
+  </style>
+  <body>
+    <div class="container1">
+      <div class="box1">
+        <h1>This is first flexbox</h1>
+		<p>This is the first box</p>
+		<p>This is the first box</p>
+		<p>This is the first box</p>
+      </div>
+      <div class="box2">
+        <h1>This is second flexbox</h1>
+		<p>This is second box</p>
+      </div>
+      <div class="box3">
+        <h1>This is third flexbox</h1>
+        <p>This is third box</p>
+      </div>
+    </div>
+  </body>
+</html>

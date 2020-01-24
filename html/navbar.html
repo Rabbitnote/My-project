@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <style>
+        .btnup{
+            border: 3px solid black;
+
+        }
+        .btndown{
+            border: 3px solid black;
+        }
+        .TEXT{
+            border: 3px solid black;
+            width:50%;
+            height: 100px;
+            
+        }
+        .btn{
+            display: flex;
+            margin-left: 20px;
+            flex-direction: column;
+            width: 50%;
+            justify-content: space-evenly;
+            
+        }
+        .leftside{
+            display:flex;
+            padding: 15px;
+
+            
+        }
+        .background{
+            width: 93%;
+            height: 200px;
+            background-color: aquamarine;
+            border:2px solid black;
+            margin-left: 15px;
+            margin-top: 10px;
+            padding-left:10px ;
+            
+        }
+        .card{
+            width:450px;
+            height:400px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .flex2{
+            display: flex;
+            height: 100vh;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            font-family: 'Roboto Condensed', sans-serif;
+
+
+        }
+        .flex{
+            display: flex;
+            border: 1px solid rgb(89, 255, 241);
+            background-color:aqua;
+            position: fixed;
+            width:100vw;
+        }
+        .right{
+            display: flex;
+            flex-grow: 1;
+            justify-content: flex-end;
+
+        }
+        .box{
+            display: flex;
+        
+        }
+        .box1{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+            flex-grow: 4;
+
+        }
+        .box1 a{
+            padding:10px;
+            text-decoration: none;
+            color: black;
+        }
+        .right a{
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            font-weight: 900;
+            font-size: 30px;
+            color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="box">
+            <h1>NOTE</h1>
+            <div class="box1">
+            <a href="">Home</a>
+            <a href="">About</h2>
+            <a href="">Contract</a>
+        </div>
+        </div>
+        <div class="right">
+            <a class="L1" href="">L1</a>
+            <a class="L2" href="">L2</a>
+            <a class="L3" href="">L3</a>
+        </div>
+    </div>
+    <div class="flex2">   
+        <div class="card">
+            <h1>Hello</h1>
+            <div class="background">
+            </div>
+            <div class="leftside">
+            <h2 class="TEXT">Text</h2>
+            <div class="btn">
+                <a class="btnup" href="">Button up</a>
+                <a class="btndown" href="">Button down</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
